@@ -51,7 +51,7 @@ After some time digging through files upon files, I found this in "Reauthenticat
 ![image](https://user-images.githubusercontent.com/98354876/228399022-6f2ffe6d-2043-4477-9fa6-4a3d227ce4da.png)
 
 Trusting user input, eh? Interesting... Lets keep that in mind, shall we?
-What the code is doing from what I can tell is whenever someone tries reauthenticating, it checks if we have a JWT (Java Web Token) and if our security context is null. if it *is* null, it reauthenticates with the users ID and role, then makes a new token.
+What the code is doing from what I can tell is whenever someone tries reauthenticating, it checks if we have a JWT (Json Web Token) and if our security context is null. if it *is* null, it reauthenticates with the users ID and role, then makes a new token.
 
 After some more digging (Theres alot of it) I found this file.
 
@@ -88,7 +88,7 @@ So, lets take our JWT and use a tool called "hashcat" to crack it with the wordl
 
 # Getting admin
 
-As you can tell from the screenshot above.. The JWT secret was 1234 ANYWAY! We never needed to overwrite it, because it was always that!
+As you can tell from the screenshot above.. The JWT secret was 1234 *ANYWAY*! We never needed to overwrite it, because it was always that!
 Frustrating, but this means we can now edit our JWT with a website i mentioned briefly before, jwt.io
 
 ![image](https://user-images.githubusercontent.com/98354876/228401572-dfe5488f-904e-4454-82cf-76e0183d1029.png)
