@@ -100,7 +100,7 @@ Ah there it is! Admin is the third user created, so it must have the role id 3! 
 
 ![image](https://user-images.githubusercontent.com/98354876/228402078-122b71b9-c354-458f-a374-47ebd8e2bb1a.png)
 
-Note after updating the info, we put the secret in the bottom left, and we have a verified signature! Now, lets copy our new cookie and replace our old one.
+Note after updating the info, we put the secret in the bottom right, and we have a verified signature! Now, lets copy our new cookie and replace our old one.
 
 ![image](https://user-images.githubusercontent.com/98354876/228402210-8a826a8c-08ac-4c98-8cd5-35c40e9571e7.png)
 
