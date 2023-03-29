@@ -93,7 +93,7 @@ Frustrating, but this means we can now edit our JWT with a website i mentioned b
 
 ![image](https://user-images.githubusercontent.com/98354876/228401572-dfe5488f-904e-4454-82cf-76e0183d1029.png)
 
-So these are our current pieces of information. Well our current ID as a free user is 1. Lets try to dig through the source one final time to find what the admin information is
+So this is currently what the web token holds. Our current ID as a free user is 1. Lets try to dig through the source one final time to find what the admins information is.
 ![image](https://user-images.githubusercontent.com/98354876/228401828-47a0b1b5-fc73-4e4c-b136-05c664f5b7e0.png)
 
 Ah there it is! Admin is the third user created, so it must have the role id 3! We can also see its email and full username, lets change our information to match the admins!
